@@ -42,11 +42,11 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Stockholm, Sweden</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+46 700469580</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
@@ -56,7 +56,7 @@ const Footer = () => {
               <a href="#">
                 <FaFacebook className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/osman-kelifa-0ba948a5/">
                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
               </a>
             </div>
