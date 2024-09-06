@@ -10,7 +10,7 @@ const Hero = ({ theme }) => {
   });
   return (
   
-    <div className={`duration-300 bg-gradient-to-r ${theme === "dark" ? "from-orange-600 to-slate-900" : "from-orange-400 to-amber-50"} text-white dark:text-black h-screen py-8`}>
+    <div className={`duration-400 bg-gradient-to-r ${theme === "dark" ? "from-orange-600 to-slate-900" : "from-orange-400 to-amber-50"} text-white dark:text-black h-screen py-8`}>
       <div className="container min-h-[620px] flex">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div
@@ -40,7 +40,7 @@ const Hero = ({ theme }) => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
               veritatis explicabo quibusdam quae reprehenderit ab{" "}
             </p>
-            <button
+            {/* <button
               data-aos="fade-up"
               data-aos-delay="1500"
               onClick={() => {
@@ -49,7 +49,7 @@ const Hero = ({ theme }) => {
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
             >
               Get Started
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

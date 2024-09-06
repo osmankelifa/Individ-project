@@ -46,17 +46,17 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3">
               <FaMobileAlt />
-              <p>+46 700469580</p>
+              <p>+46 737783340</p>
             </div>
             
             <div className="flex items-center gap-3 ">
-              <a href="#">
+              <a href="https://www.instagram.com/habesha_beer/">
                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/coldgoldscandinavia/">
                 <FaFacebook className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="https://www.linkedin.com/in/osman-kelifa-0ba948a5/">
+              <a href="https://www.linkedin.com/in/sennai/">
                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
               </a>
             </div>

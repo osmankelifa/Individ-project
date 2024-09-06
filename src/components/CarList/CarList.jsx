@@ -24,23 +24,25 @@ const carList = [
   //   aosDelay: "1000",
   // },
   
-    name: "Habesha",
-    price: 120,
+  
+    name: <a href="https://www.gojorestaurang.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Gojo Fasika</a>,
+    address: "Renstiernas gata 48, 116 31 Stockholm",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "1500", // Adjust the delay as needed
   },
+  
 ];
 
 const CarList = () => {
   return (
-    <div className="pb-24">
+    <div id="RESTAURANTS" className="pb-24">
       <div className="container">
         {/* Heading */}
         <h1
           data-aos="fade-up"
           className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
         >
-          Restaurants that serve Habesha Beer
+          Restaurants serving Habesha Beer
         </h1>
         <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
@@ -65,13 +67,13 @@ const CarList = () => {
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>${data.price}/Day</p>
-                    <a href="#">Details</a>
+                    <p className="text-base">{data.address}</p>
+                  
                   </div>
                 </div>
                 <p className="text-xl font-semibold absolute top-0 left-3">
-                  12Km
-                </p>
+                  LOGO</p>
+
               </div>
             ))}
           </div>
