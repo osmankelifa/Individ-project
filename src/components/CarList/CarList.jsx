@@ -40,7 +40,7 @@ const CarList = () => {
         {/* Heading */}
         <h1
           data-aos="fade-up"
-          className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
+          className="text-3xl sm:text-4xl font-semibold font-serif mb-3 py-10"
         >
           Restaurants serving Habesha Beer
         </h1>
@@ -80,9 +80,9 @@ const CarList = () => {
         </div>
         {/* End of car listing */}
         <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="button-outline">
+          {/* <button data-aos="fade-up" className="button-outline">
             Get Started
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

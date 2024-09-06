@@ -45,7 +45,7 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
-      <Services />
+      {/* <Services /> */}
       <CarList />
       {/* <Testimonial /> */}
       {/* <AppStoreBanner /> */}
