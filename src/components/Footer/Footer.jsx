@@ -42,7 +42,7 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-2">
               <FaLocationArrow />
-              <p>Stockholm, Sweden</p>
+              <p>Sensei Works AB - Storsegelvägen 4, Stockholm</p>
             </div>
             <div className="flex items-center gap-3">
               <FaMobileAlt />
@@ -56,7 +56,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/coldgoldscandinavia/">
                 <FaFacebook className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="https://www.linkedin.com/in/sennai/">
+              <a href="https://www.linkedin.com/company/habesha-breweries-s-co-/">
                 <FaLinkedin className="text-3xl hover:text-primary duration-300" />
               </a>
             </div>
