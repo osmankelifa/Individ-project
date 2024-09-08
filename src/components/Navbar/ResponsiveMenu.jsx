@@ -13,9 +13,9 @@ const ResponsiveMenu = ({ showMenu }) => {
     >
       <div className="card">
         <div className="flex items-center justify-start gap-3">
-          <FaUserCircle size={50} />
+          
           <div>
-            <h1>Hello User</h1>
+          
             <h1 className="text-sm text-slate-500"></h1>
           </div>
         </div>
@@ -32,9 +32,6 @@ const ResponsiveMenu = ({ showMenu }) => {
         </nav>
       </div>
       <div className="footer">
-        <h1>
-          Made with ❤ by <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
-        </h1>
       </div>
     </div>
   );
