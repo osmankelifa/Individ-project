@@ -25,7 +25,7 @@ const carList = [
   // },
   
   
-    name: <a href="https://www.gojorestaurang.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Gojo Fasika</a>,
+    name: <a href="https://www.gojorestaurang.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:">Gojo Fasika</a>,
     address: "Renstiernas gata 48, 116 31 Stockholm",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
