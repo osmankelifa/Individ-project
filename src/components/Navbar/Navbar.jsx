@@ -16,11 +16,11 @@ export const Navlinks = [
     name: "ABOUT",
     link: "/#about",
   },
-  {
-    id: 3,
-    name: "BEER",
-    link: "/#",
-  },
+  // {
+  //   id: 3,
+  //   name: "BEER",
+  //   link: "/#",
+  // },
   {
     id: 4,
     name: "RESTAURANTS",
