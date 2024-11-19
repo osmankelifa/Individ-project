@@ -18,16 +18,14 @@ const List = () => {
       <div className="container">
         {/* Heading */}
         <h1
-          data-aos="fade-up"
+          
           className="text-3xl sm:text-4xl font-semibold font-serif mb-3 py-10"
         >
-          Restaurants serving Habesha Beer
+          Restauranger som serverar Habesha Beer
         </h1>
-        <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
-          nemo ab?
-        </p>
-        {/* Car listing */}
+        <p className="text-sm pb-10">
+      </p>
+        
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
             {ListOfRestaurants.map((data) => (
