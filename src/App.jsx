@@ -8,9 +8,8 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import List from "./components/List/List";
-// import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
+import Beer from "./components/Beer/Beer";
 import Contact from "./components/Contact/Contact";
-// import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
@@ -46,9 +45,10 @@ const App = () => {
       <Hero theme={theme} />
       <About />
       {/* <Services /> */}
+      <Beer />
       <List />
       {/* <Testimonial /> */}
-      {/* <AppStoreBanner /> */}
+      
       <Contact />
       <Footer />
     </div>

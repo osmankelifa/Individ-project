@@ -8,12 +8,12 @@ import 'aos/dist/aos.css'; // Import AOS styles
 export const Navlinks = [
   {
     id: 1,
-    name: "HOME",
+    name: "HEM",
     link: "/#",
   },
   {
     id: 2,
-    name: "ABOUT",
+    name: "OM OSS",
     link: "/#about",
   },
   // {
@@ -23,7 +23,7 @@ export const Navlinks = [
   // },
   {
     id: 4,
-    name: "RESTAURANTS",
+    name: "RESTAURANGER",
     link: "/#RESTAURANTS",
   },
 ];

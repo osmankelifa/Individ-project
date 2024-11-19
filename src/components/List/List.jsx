@@ -3,25 +3,7 @@ import habesha from "../../../public/habesha beer.png"
 
 const ListOfRestaurants = [
   {
-  //   name: "BMW UX",
-  //   price: 100,
-  //   image: whiteCar,
-  //   aosDelay: "0",
-  // },
-  // {
-  //   name: "KIA UX",
-  //   price: 140,
-  //   image: car2,
-  //   aosDelay: "500",
-  // },
-  // {
-  //   name: "BMW UX",
-  //   price: 100,
-  //   image: car3,
-  //   aosDelay: "1000",
-  // },
-  
-  
+
     name: <a href="https://www.gojorestaurang.se" target="_blank" rel="noopener noreferrer" className="text-primary hover:">Gojo Fasika</a>,
     address: "Renstiernas gata 48, 116 31 Stockholm",
     image: habesha, // Assuming habesha image is imported or available
@@ -32,7 +14,7 @@ const ListOfRestaurants = [
 
 const List = () => {
   return (
-    <div id="RESTAURANTS" className="pb-24">
+    <div id="RESTAURANTS" className="pb-24 h-screen">
       <div className="container">
         {/* Heading */}
         <h1

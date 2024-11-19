@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
 import habesha from "../../../public/habesha beer.png";
 import AOS from "aos";
 
@@ -32,13 +30,16 @@ const Hero = ({ theme }) => {
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
-              className="text-5xl lg:text-7xl font-semibold font-serif flex "
+              className="text-5xl lg:text-4xl font-semibold font-serif flex "
             >
-              Habesha Beer
+              Habesha Beer Sverige!
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+            Upplev Etiopiens vibranta smaker här i Sverige. Habesha Beer är mer än bara en dryck – det är en hyllning till kultur, gemenskap och hantverk. Vår ljusa lager på 5 % är bryggd med precision och passion, vilket ger en uppfriskande och lättdrucken öl.
+
+Oavsett om du är på din favoritrestaurang, en trendig klubb eller hemma i soffan, är Habesha Beer den perfekta följeslagaren. Utforska de rika smakerna, den snygga designen och den globala charmen som gör vår öl unik.
+
+Smaka på Etiopiens stolthet. Skål – Melkam Megeb!{" "}
             </p>
             {/* <button
               data-aos="fade-up"
