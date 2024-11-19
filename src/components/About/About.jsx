@@ -21,7 +21,7 @@ const About = () => {
               >
                 Om oss
               </h1>
-              <p data-aos="fade-up" className="leading-8 tracking-wide">
+              <p className="leading-8 tracking-wide">
             
 Vår historia
 Habesha Beer föds ur Etiopiens hjärta, bryggd med förstklassiga ingredienser och ett engagemang för kvalitet. Vi är stolta över att ta med denna autentiska smak till Sverige och knyta samman kulturer en klunk i taget.
