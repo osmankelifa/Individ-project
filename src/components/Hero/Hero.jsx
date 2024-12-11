@@ -35,7 +35,7 @@ const Hero = ({ theme }) => {
               Habesha Beer Sverige!
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-            Upplev Etiopiens vibranta smaker här i Sverige. Habesha Beer är mer än bara en dryck – det är en hyllning till kultur, gemenskap och hantverk. Vår ljusa lager på 5 % är bryggd med precision och passion, vilket ger en uppfriskande och lättdrucken öl.
+            Upplev Etiopiens vibrantssssss smaker här i Sverige. Habesha Beer är mer än bara en dryck – det är en hyllning till kultur, gemenskap och hantverk. Vår ljusa lager på 5 % är bryggd med precision och passion, vilket ger en uppfriskande och lättdrucken öl.
 
 Oavsett om du är på din favoritrestaurang, en trendig klubb eller hemma i soffan, är Habesha Beer den perfekta följeslagaren. Utforska de rika smakerna, den snygga designen och den globala charmen som gör vår öl unik.
 
