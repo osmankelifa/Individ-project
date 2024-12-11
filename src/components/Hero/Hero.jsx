@@ -8,9 +8,9 @@ const Hero = ({ theme }) => {
   });
   return (
   
-    <div className={`duration-400 bg-gradient-to-r ${theme === "dark" ? "from-orange-600 to-slate-900" : "from-orange-400 to-amber-50"} text-white dark:text-black h-screen py-8`}>
-      <div className="container min-h-[620px] flex">
-        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
+    <div className={`duration-400 bg-gradient-to-r ${theme === "dark" ? "from-orange-600 to-slate-900" : "from-orange-600 to-slate-900"} text-white h-screen py-8 mt-10`}>
+      <div className="container min-h-[620px] flex flex-wrap sm:h-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
           <div
             data-aos="zoom-in"
             data-aos-duration="1500"
@@ -23,7 +23,7 @@ const Hero = ({ theme }) => {
               className="sm:scale-125 relative -z-10 max-h-[400px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)] "
             />
           </div>
-          <div className="space-y-5 order-2 sm:order-1 ml-10">
+          <div className="space-y-5 flex flex-col flex-wrap order-2 sm:order-1">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
         
             </p>

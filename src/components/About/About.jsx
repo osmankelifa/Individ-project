@@ -7,7 +7,7 @@ const About = () => {
     <>
     
     <span id="about"></span>
-    <div className="dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300 h-screen">
+    <div className="dark:bg-dark bg-slate-100 sm:grid sm:place-items-center duration-300">
       <div className="container">
         <div>
           <div data-aos="slide-right" data-aos-duration="1500">

@@ -62,7 +62,7 @@ const Navbar = ({ theme, setTheme }) => {
       className={`duration-300 ${
         theme === "dark"
           ? "bg-gradient-to-r from-orange-600 to-slate-900"
-          : "bg-gradient-to-r from-orange-400 to-amber-50"
+          : "bg-gradient-to-r from-orange-600 to-slate-900" 
       } ${isScrolled ? "bg-opacity-100" : "bg-opacity-80"} ${
         isScrolled ? "text-black" : "text-white"
       } dark:text-white z-30 fixed top-0 left-0 w-full`}
