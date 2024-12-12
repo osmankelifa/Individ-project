@@ -1,4 +1,4 @@
-import React  from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -6,18 +6,15 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Services from "./components/Services/Services";
+import Images from "./components/Images/Images";
+// import Services from "./components/Services/Services";
 import List from "./components/List/List";
 import Beer from "./components/Beer/Beer";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
-  // dark mode start
-  
-  // dark mode end
-
-  React.useEffect(() => {
+  useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 800,
@@ -28,14 +25,15 @@ const App = () => {
   }, []);
   return (
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-      <Navbar  />
+      <Navbar />
       <Hero />
       <About />
+      <Images />
       {/* <Services /> */}
       <Beer />
       <List />
       {/* <Testimonial /> */}
-      
+
       <Contact />
       <Footer />
     </div>

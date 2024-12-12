@@ -1,56 +1,40 @@
-import React, { useEffect } from "react";
-import habesha from "../../../public/habesha beer.png";
+import { useEffect } from "react";
+
 import AOS from "aos";
 
-const Hero = ({ theme }) => {
+const Hero = () => {
   useEffect(() => {
+    AOS.init({ duration: 1500 });
     AOS.refresh();
-  });
+  }, []);
+
   return (
-  
-    <div className={`duration-400 bg-gradient-to-r ${theme === "dark" ? "from-orange-600 to-slate-900" : "from-orange-600 to-slate-900"} text-white h-screen py-8 mt-10`}>
-      <div className="container min-h-[620px] flex flex-wrap sm:h-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
-          <div
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-            data-aos-once="false"
-            className="order-2 sm:order-3"
-          >
-            <img
-              src={theme === "dark" ? habesha : habesha}
-              alt=""
-              className="sm:scale-125 relative -z-10 max-h-[400px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)] "
-            />
-          </div>
-          <div className="space-y-5 flex flex-col flex-wrap order-2 sm:order-1">
-            <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-        
-            </p>
+    <div className="relative w-screen  h-screen overflow-hidden">
+      {/* Background */}
+      <div className="absolute inset-0   w-full h-full">
+        <video
+          className="w-full h-full  object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="./habesha.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      {/* Large Logo and Slogan */}
+      <div className="absolute inset-y-0 left-0 flex flex-col w-full  text-center  items-center justify-center z-10">
+        <div className="grid grid-cols-2 w-full px-12 mx-auto">
+          <div className="relative   h-full flex flex-col justify-center text-start   ">
             <h1
               data-aos="fade-up"
-              data-aos-delay="600"
-              className="text-5xl lg:text-4xl font-semibold font-serif flex "
-            >
-              Habesha Beer Sverige!
-            </h1>
-            <p data-aos="fade-up" data-aos-delay="1000">
-            Upplev Etiopiens vibrantssssss smaker här i Sverige. Habesha Beer är mer än bara en dryck – det är en hyllning till kultur, gemenskap och hantverk. Vår ljusa lager på 5 % är bryggd med precision och passion, vilket ger en uppfriskande och lättdrucken öl.
-
-Oavsett om du är på din favoritrestaurang, en trendig klubb eller hemma i soffan, är Habesha Beer den perfekta följeslagaren. Utforska de rika smakerna, den snygga designen och den globala charmen som gör vår öl unik.
-
-Smaka på Etiopiens stolthet. Skål – Melkam Megeb!{" "}
-            </p>
-            {/* <button
-              data-aos="fade-up"
               data-aos-delay="1500"
-              onClick={() => {
-                AOS.refreshHard();
-              }}
-              className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
+              className="text-7xl   font-bound font-semibold backdrop-blur-sm rounded-lg text-center"
             >
-              Get Started
-            </button> */}
+              Habesha Beer Sverige
+            </h1>
           </div>
         </div>
       </div>

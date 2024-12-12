@@ -1,20 +1,22 @@
-import React, { useState, useEffect } from "react";
-import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
+import { useState, useEffect } from "react";
+
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
-import AOS from 'aos'; // Import AOS
-import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from "aos"; // Import AOS
+import "aos/dist/aos.css"; // Import AOS styles
 
 export const Navlinks = [
   {
     id: 1,
     name: "HEM",
     link: "/#",
+    key: "home",
   },
   {
     id: 2,
     name: "OM OSS",
     link: "/#about",
+    key: "about",
   },
   // {
   //   id: 3,
@@ -25,32 +27,16 @@ export const Navlinks = [
     id: 4,
     name: "RESTAURANGER",
     link: "/#RESTAURANTS",
+    key: "restaurants",
   },
 ];
 
-const Navbar = ({ theme, setTheme }) => {
+const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   useEffect(() => {
     AOS.init(); // Initialize AOS
@@ -59,15 +45,9 @@ const Navbar = ({ theme, setTheme }) => {
   return (
     <div
       data-aos="zoom-out-down" // Move `data-aos` here
-      className={`duration-300 ${
-        theme === "dark"
-          ? "bg-gradient-to-r from-orange-600 to-slate-900"
-          : "bg-gradient-to-r from-orange-600 to-slate-900" 
-      } ${isScrolled ? "bg-opacity-100" : "bg-opacity-80"} ${
-        isScrolled ? "text-black" : "text-white"
-      } dark:text-white z-30 fixed top-0 left-0 w-full`}
+      className=" z-30 fixed top-0 left-0 w-full"
       style={{
-        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', // Optional shadow for better visibility
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // Optional shadow for better visibility
       }}
     >
       <div className="container py-2 md:py-0">
@@ -81,42 +61,17 @@ const Navbar = ({ theme, setTheme }) => {
                 <li key={id} className="py-4">
                   <a
                     href={link}
-                    className={`text-lg font-medium py-2 hover:text-primary hover:border-b-2 hover:border-primary transition-colors duration-500 ${
-                      isScrolled ? "text-black" : "text-white"
-                    }`}
+                    className="text-lg font-medium py-2 hover:text-primary hover:border-b-2 hover:border-primary transition-colors duration-500 "
                   >
                     {name}
                   </a>
                 </li>
               ))}
               {/* DarkMode feature implement */}
-              {theme === "dark" ? (
-                <BiSolidSun
-                  onClick={() => setTheme("light")}
-                  className="text-2xl cursor-pointer"
-                />
-              ) : (
-                <BiSolidMoon
-                  onClick={() => setTheme("dark")}
-                  className="text-2xl cursor-pointer"
-                />
-              )}
             </ul>
           </nav>
           {/* Mobile view  */}
           <div className="flex items-center gap-4 md:hidden">
-            {/* Dark mode */}
-            {theme === "dark" ? (
-              <BiSolidSun
-                onClick={() => setTheme("light")}
-                className="text-2xl cursor-pointer"
-              />
-            ) : (
-              <BiSolidMoon
-                onClick={() => setTheme("dark")}
-                className="text-2xl cursor-pointer"
-              />
-            )}
             {/* Mobile Hamburger icon */}
             {showMenu ? (
               <HiMenuAlt1
