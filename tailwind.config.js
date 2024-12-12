@@ -4,6 +4,10 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        bound: ["Unbounded", "sans-serif"],
+        orbitron: ["Orbitron", "sans-serif"],
+      },
       colors: {
         primary: "#ffc727",
         secondary: {
