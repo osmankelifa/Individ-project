@@ -4,10 +4,14 @@ const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "./habesha-beer.png",
-    "./habeshalogo2.png",
-    "./habesha-beer.png",
-    "./habeshalogo2.png",
+    "./mingle1.jpg",
+    "./mingle2.jpg",
+    "./mingle3.jpg",
+    "./mingle4.jpg",
+    "./mingle5.jpg",
+    "./minglebeer1.jpeg",
+    "./minglebeer2.JPG",
+    "./minglebeer3.jpg",
   ];
 
   const back = () => {

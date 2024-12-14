@@ -9,75 +9,62 @@ const ListOfRestaurants = [
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
-    image: "./images.webp", // Assuming habesha image is imported or available
-    aosDelay: "400", // Adjust the delay as needed
-  },
-  {
-    name: "stefan",
-    web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
   {
-    name: "stefan",
+    name: "TBU",
     web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
+    address: "adress",
     image: habesha, // Assuming habesha image is imported or available
     aosDelay: "400", // Adjust the delay as needed
   },
-  {
-    name: "stefan",
-    web: "https://www.dhiwise.com/post/react-grid-layout-building-visually-stunning-web-grid",
-    address: "Regeringen",
-    image: habesha, // Assuming habesha image is imported or available
-    aosDelay: "400", // Adjust the delay as needed
-  },
+
 ];
 
 const List = () => {
