@@ -7,7 +7,7 @@ const Beer = () => {
             <h1 className="text-white text-2xl text-center sm:text-4xl font-semibold font-serif">
               Habesha beer
             </h1>
-            <p className="text-white text-center sm:px-20">
+            <p className="text-white text-center sm:px-20 md:text-left justify-center px-5 md:px-20">
               Ölen som förenar oss Habesha Beer är en ljus lager på 5 % som är
               perfekt bryggd för att ge en mjuk och uppfriskande smak i varje
               klunk. Den passar utmärkt till kryddiga etiopiska rätter, lätta

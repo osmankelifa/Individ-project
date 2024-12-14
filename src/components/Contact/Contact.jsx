@@ -5,9 +5,9 @@ const Contact = () => {
     <>
       <span id="contact" />
       <div className="dark:bg-black dark:text-white py-14">
-        <div className="container ">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-gray-800 py-8 px-6">
-            <div className="col-span-2 space-y-3">
+        <div className="container">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-gray-800 py-8 px-6 rounded-lg">
+            <div className="col-span-2 space-y-3 pt-2 pl-2">
               {/* <h1 className="text-4xl sm:text-5xl font-bold text-white">
                 Samarbeta med oss
               </h1> */}
@@ -18,7 +18,7 @@ const Contact = () => {
             <div className="sm:grid sm:place-items-center">
               <a
                 href="mailto:sennai@hotmail.com"
-                className="inline-block font-semibold py-2 px-6 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase "
+                className="inline-block font-semibold text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 "
               >
                 Kontakta oss
               </a>

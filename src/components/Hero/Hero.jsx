@@ -31,7 +31,9 @@ const Hero = () => {
             <h1
               data-aos="fade-up"
               data-aos-delay="1500"
-              className="text-7xl   font-bound font-semibold backdrop-blur-sm rounded-lg text-center"
+              className="text-3xl sm:text-5xl md:text-7xl font-bound font-semibold backdrop-blur-sm rounded-lg text-center"
+
+              // className="text-7xl font-bound font-semibold backdrop-blur-sm rounded-lg text-center"
             >
               Habesha Beer Sverige
             </h1>
