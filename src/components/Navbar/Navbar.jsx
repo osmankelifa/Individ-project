@@ -25,8 +25,8 @@ export const Navlinks = [
   // },
   {
     id: 4,
-    name: "RESTAURANGER",
-    link: "/#RESTAURANTS",
+    name: "KONTAKTA OSS",
+    link: "/#KONTAKTA OSS",
     key: "restaurants",
   },
 ];
